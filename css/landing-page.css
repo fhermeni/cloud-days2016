@@ -237,3 +237,7 @@ p.copyright {
     vertical-align: middle;
     float: none;
 }
+
+p {
+    text-align: justify;
+}

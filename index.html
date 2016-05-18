@@ -108,7 +108,10 @@
 <p>L'enregistrement pour assister aux journées est gratuit mais <strong>obligatoire</strong>.</p>
 
 <div class="text-center">
-<a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-primary btn-lg"> Inscription</a>
+<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+    Appel à contribution
+</button>
+<a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-success btn-lg"> Inscription</a>
 </div>
 
             </div>
@@ -135,8 +138,15 @@
                     <table class="table">
                     <tbody>
                     <tr>
-                        <td class="text-left">Soumission des propositions</td>
-                        <td class="text-right">1er juillet 2016</td>
+                        <td class="text-left">
+                        Soumission des propositions
+                        </td>
+                        <td class="text-right">
+                        <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
+                        appel à contribution
+                        </button>
+                        1er juillet 2016
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-left">Notification</td>
@@ -144,7 +154,8 @@
                     </tr>
                     <tr>
                         <td class="text-left">Date limite d'inscription  </td>
-                        <td class="text-right"><a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-warning btn-xs">inscription</a> 1er septembre 2016</td>
+                        <td class="text-right">
+                        <a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-warning btn-xs">inscription</a> 1er septembre 2016</td>
                     </tr>
                     <tr>
                         <td class="text-left">Date des journées</td>
@@ -203,6 +214,88 @@
         </div>
     </div>
     </div>
+
+    <!-- CFP -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Appel à contribution</h4>
+            </div>
+            <div class="modal-body">
+<p>Cher(e)s collègues,</p>
+
+<p>L’action transverse Virtualisation et Cloud du GdR RSD (Réseau et Systèmes Distribués) organise une rencontre entre les acteurs académiques et industriels français abordant les problématiques liées à l’administration et l’utilisation des environnements virtualisés/cloudifiés.</p>
+
+<p>Notre principal objectif est de rassembler au travers cette journée, les deux communautés, i.e., réseau d’une part et systèmes distribués de l’autre afin :</p>
+<ul>
+<li> de présenter les défis scientifiques et techniques abordés de chaque côté ;</li>
+<li> d'échanger autour des derniers résultats obtenus ;</li>
+<li> de faire émerger d'éventuelles collaborations, notamment entre les deux pôles.</li>
+</ul>
+<p>
+A l’instar des précédentes éditions, le processus se veut informel, c'est à dire que toute personne travaillant dans la thématique a la possibilité de venir présenter des travaux récemment publiés ou des projets/activités en cours.
+Les présentations pourront aborder les aspects suivants (liste non exhaustive) :
+</p>
+<ul>
+<li>Gestion des ressources physiques  (calcul/stockage/réseau)</li>
+<li>Ordonnancement des machines virtuelles</li>
+<li>Virtualisation des réseaux</li>
+<li>HPC et virtualisation</li>
+<li>Protocoles et algorithmes SDN/NFV</li>
+<li>Gestion de données dans un contexte virtualisé (MapReduce, partage de données multi-sites, ...)</li>
+<li>Fog Computing</li>
+<li>Mobile Cloud (Cloudlets)</li>
+<li>Administration des infrastructures à très large échelle.</li>
+<li>Optimisation du placement et du dimensionnnement des ressources de virtualisation</li>
+<li>Orchestration online et offline</li>
+<li>Tolérance aux pannes</li>
+<li>Contraintes énergétiques</li>
+<li>Fédération et interopérabilité</li>
+<li>Sécurité</li>
+<li>Simulation</li>
+<li>Gestion au niveau applicatif (équilibrage de charge, stratégie de provisionning, gestion du cycle de vie, élasticité)</li>
+<li>Qualité de service (SLA/SLO)</li>
+<li>Modèles de programmation</li>
+</ul>
+
+<p>Deux types de présentations peuvent être proposés:</p>
+<ul>
+<li>jeunes doctorant(e)s, pour présenter des résultats de leur recherche, meme préliminaires  (sous forme de poster ou presentation courte, 15 min) ;</li>
+<li>chercheurs expérimentés, pour présenter les activités conduites dans des projets de recherche en cours ou à venir, des activités d'une équipe de recherche, etc. (présentation de 25/30 min).</li>
+</ul>
+
+<p>La rencontre se déroulera du 13 au 14 septembre 2016 à Nice, repas pris en charge par l'action  et inscription gratuite mais obligatoire.</p>
+
+<p>Afin de favoriser les discussions et initier des collaborations, des travel grants seront proposés aux étudiants présentants leurs travaux.</p>
+
+<p>Dans un premier temps, nous demandons aux personnes intéressées de faire parvenir par mail aux organisateurs un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés. Le choix de la langue (français ou anglais) est laissé à la discrétion de l'orateur. L'échéance est fixée au 1er juillet.</p>
+
+<p>Merci pour vos retours (que nous espérons positifs).</p>
+
+<p>Organisateurs:</p>
+<ul>
+<li>Damien Saucez (damien.saucez@inria.fr)</li>
+<li>Fabien Hermenier (fabien.hermenier@unice.fr)</li>
+</ul>
+<p>Responsables de l'action transverse virtualisation et cloud:</p>
+<ul>
+<li>Adrien Lebre (adrien.lebre@inria.fr)</li>
+<li>Stefano Secci (stefano.secci@lip6.fr)</li>
+</ul>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <!--Footer -->
     <footer>
         <div class="container text-muted text-center small">
