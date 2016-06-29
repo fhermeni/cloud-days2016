@@ -73,12 +73,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>GdR RSD - Journées Cloud 2016</h1>
+                        <h1>
+                        GdR RSD - Journées Cloud 2016
+                        </h1>
                         <h3>13 et 14 septembre 2016</h3>
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+            </div>
+            </div>
         </div>
         <!--/.container -->
 
@@ -103,7 +108,7 @@
 <li>chercheurs expérimentés, pour présenter les activités conduites dans des projets de recherche en cours ou à venir, des activités d'une équipe de recherche, etc. (présentation de 25/30 min).</li>
 </ul>
 
-<p>Nous demandons aux personnes intéressées de faire parvenir à <a href="#organisation">l'équipe d'organisation</a> un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés.  L'échéance est fixée au <strong>1er juillet 2016</strong>.</p>
+<p>Nous demandons aux personnes intéressées de faire parvenir à <a href="#organisation">l'équipe d'organisation</a> un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés.  L'échéance est fixée au <strong>15 juillet 2016</strong>.</p>
 
 <p>L'enregistrement pour assister aux journées est gratuit mais <strong>obligatoire</strong>.</p>
 
@@ -111,7 +116,11 @@
 <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
     Appel à contribution
 </button>
-<a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-success btn-lg"> Inscription</a>
+<!--<a href="http://goo.gl/forms/rioyUcvGgk" class="btn btn-success btn-lg"> Inscription</a>-->
+<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#propal">
+    Soumettre une présentation
+</button>
+
 </div>
 
             </div>
@@ -145,12 +154,15 @@
                         <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
                         appel à contribution
                         </button>
-                        1er juillet 2016
+                        <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#propal">
+                        Soumettre une présentation
+                        </button>
+                        15 juillet 2016
                         </td>
                     </tr>
                     <tr>
                         <td class="text-left">Notification</td>
-                        <td class="text-right">15 juillet 2016</td>
+                        <td class="text-right">20 juillet 2016</td>
                     </tr>
                     <tr>
                         <td class="text-left">Date limite d'inscription  </td>
@@ -197,7 +209,24 @@
     <div id="programme" class="content-section-a">
     <div class="container">
     <h2 class="text-center">Conférenciers Invités</h2>
-    <p class="text-center">TBA...</p>
+    <div class="row">
+        <div class="col-sm-3 col-sm-offset-3">
+            <div class="thumbnail">
+                <img src="img/julien_simon.jpg" alt="Julien Simon">
+                <div class="caption">
+                    <h3>Julien Simon</h3>
+                    <p>Évangéliste technologique pour Amazon Web Service</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 ">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4 class="text-center">TBA</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <h2 class="text-center">Agenda</h2>
     <p class="text-center">TBA...</p>
@@ -208,13 +237,36 @@
     <div class="container">
         <h1 class="text-center">Sponsors</h1>
         <div class="row">
-            <div class="col-md-2 col-md-offset-3"><a href="http://www.unice.fr"><img src="img/unice-logo.png" class="sponsor" alt="unice"></a></div>
-            <div class="col-md-2"><a href="https://rsd-cloud.lip6.fr/"><img src="img/cnrs-logo.jpg" class="sponsor" alt="cnrs"></a></div>
+            <div class="col-md-2 col-md-offset-1"><a href="http://www.ucnlab.eu/"><img src="img/ucn-lab.png" class="sponsor" alt="ucn-lab"></a></div>
+            <div class="col-md-2"><a href="http://www.unice.fr"><img src="img/unice-logo.png" class="sponsor" alt="unice"></a></div>
+            <div class="col-md-2"><a href="https://cnrs.fr/"><img src="img/cnrs-logo.jpg" class="sponsor" alt="cnrs"></a></div>
+            <div class="col-md-2"><a href="https://rsd-cloud.lip6.fr/"><img src="img/rsd-cloud.png" class="sponsor" alt="gdr-rsd"></a></div>
             <div class="col-md-2"><a href="http://www.inria.fr"><img src="img/inria-logo.jpg" class="sponsor" alt="inria"></a></div>
         </div>
     </div>
     </div>
 
+    <!-- soumision d'une proposition -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="propal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Soumettre une proposition</h4>
+            </div>
+            <div class="modal-body">
+                <p>Merci d'envoyer un email aux <a href="mailto:fabien.hermenier@unice.fr,damien.saucez@inria.fr">organisateurs</a> en précisant le titre, le nom de l'orateur, l'affiliation, un bref résumé de la présentation et des références aux travaux présentés. Deux types de présentations peuvent être proposés:</p>
+                <ul>
+                    <li>Résultats préliminaires: présentation de 15 minutes et/ou poster</li>
+                    <li>Activités conduites dans des projets de recherche en cours ou à venir: présentation de 25/30 min. Ce format vise typiquement les chercheurs expérimentés</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- CFP -->
     <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
     <div class="modal-dialog modal-lg">
@@ -272,7 +324,7 @@ Les présentations pourront aborder les aspects suivants (liste non exhaustive) 
 
 <p>Afin de favoriser les discussions et initier des collaborations, des travel grants seront proposés aux étudiants présentants leurs travaux.</p>
 
-<p>Dans un premier temps, nous demandons aux personnes intéressées de faire parvenir par mail aux organisateurs un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés. Le choix de la langue (français ou anglais) est laissé à la discrétion de l'orateur. L'échéance est fixée au 1er juillet.</p>
+<p>Dans un premier temps, nous demandons aux personnes intéressées de faire parvenir par mail aux organisateurs un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés. Le choix de la langue (français ou anglais) est laissé à la discrétion de l'orateur. L'échéance est fixée au 15 juillet.</p>
 
 <p>Merci pour vos retours (que nous espérons positifs).</p>
 

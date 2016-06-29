@@ -123,6 +123,9 @@ li {
         width: 100%;
     }
 
+.intro-message .sponsor {
+        width: 200px;
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
