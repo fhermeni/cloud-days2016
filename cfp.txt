@@ -1,0 +1,52 @@
+Cher(e)s collègues,
+
+L’action transverse Virtualisation et Cloud du GdR RSD (Réseau et Systèmes Distribués) organise une rencontre entre les acteurs académiques et industriels français abordant les problématiques liées à l’administration et l’utilisation des environnements virtualisés/cloudifiés.
+
+Notre principal objectif est de rassembler au travers cette journée, les deux communautés, i.e., réseau d’une part et systèmes distribués de l’autre afin :
+- de présenter les défis scientifiques et techniques abordés de chaque côté ;
+- d'échanger autour des derniers résultats obtenus ;
+- de faire émerger d'éventuelles collaborations, notamment entre les deux pôles.
+
+A l’instar des précédentes éditions, le processus se veut informel, c'est à dire que toute personne travaillant dans la thématique a la possibilité de venir présenter des travaux récemment publiés ou des projets/activités en cours.
+Les présentations pourront aborder les aspects suivants (liste non exhaustive) :
+- Gestion des ressources physiques  (calcul/stockage/réseau)
+- Ordonnancement des machines virtuelles
+- Virtualisation des réseaux
+- HPC et virtualisation
+- Protocoles et algorithmes SDN/NFV
+- Gestion de données dans un contexte virtualisé (MapReduce, partage de données multi-sites, ...)
+- Fog Computing
+- Mobile Cloud (Cloudlets)
+- Administration des infrastructures à très large échelle.
+- Optimisation du placement et du dimensionnnement des ressources de virtualisation
+- Orchestration online et offline
+- Tolérance aux pannes
+- Contraintes énergétiques
+- Fédération et interopérabilité
+- Sécurité
+- Simulation
+- Gestion au niveau applicatif (équilibrage de charge, stratégie de provisionning, gestion du cycle de vie, élasticité)
+- Qualité de service (SLA/SLO)
+- Modèles de programmation
+
+Deux types de présentations peuvent être proposés:
+- jeunes doctorant(e)s, pour présenter des résultats de leur recherche, meme préliminaires  (sous forme de poster ou presentation courte, 15 min) ;
+- chercheurs expérimentés, pour présenter les activités conduites dans des projets de recherche en cours ou à venir, des activités d'une équipe de recherche, etc. (présentation de 25/30 min).
+
+La rencontre se déroulera du 13 au 14 septembre 2016 à Nice, repas pris en charge par l'action  et inscription gratuite mais obligatoire.
+
+Afin de favoriser les discussions et initier des collaborations, des travel grants seront proposés aux étudiants présentants leurs travaux.
+
+Dans un premier temps, nous demandons aux personnes intéressées de faire parvenir par mail aux organisateurs un document PDF d'une page indiquant, le titre, le nom de l'orateur, affiliation, un bref résumé de la présentation et des références aux travaux présentés. Le choix de la langue (français ou anglais) est laissé à la discrétion de l'orateur. L'échéance est fixée au 1er juillet.
+
+Merci pour vos retours (que nous espérons positifs).
+
+Organisateurs:
+Damien Saucez (damien.saucez@inria.fr)
+Fabien Hermenier (fabien.hermenier@unice.fr)
+
+Responsables de l'action transverse virtualisation et cloud:
+Adrien Lebre (adrien.lebre@inria.fr)
+Stefano Secci (stefano.secci@lip6.fr)
+
+Plus d’informations sur :  http://cloud-days16.i3s.unice.fr/
