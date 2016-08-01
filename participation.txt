@@ -1,0 +1,25 @@
+Cher(e)s collègues,
+
+Comme nous vous l'avions annoncé début juin, l’action transverse Virtualisation et Cloud du GdR RSD (Réseau et Systèmes Distribués) organise une rencontre entre les acteurs académiques et industriels français abordant les problématiques liées à l’administration et l’utilisation des environnements virtualisés/cloudifiés.
+
+Notre principal objectif est de rassembler au travers de cette journée les deux communautés, i.e., réseau d’une part et systèmes distribués de l’autre afin :
+- de présenter les défis scientifiques et techniques abordés de chaque coté ;
+- d'échanger autour des derniers résultats obtenus ;
+- de faire émerger d'éventuelles collaborations, notamment entre les deux poles.
+
+La journée se déroulera dans le chateau du campus de Valrose à Nice, le 13 et le 14 septembre (http://cloud-days16.i3s.unice.fr/#lieu).
+
+Le programme préliminaire est disponible à l'adresse suivante:  http://cloud-days16.i3s.unice.fr/#programme
+Il inclue 15 présentations d'académiques et d'industriels et 2 présentations invités.
+Vendredi après-midi aura lieu en parallèle un workshop dans le cadre du projet ANR Reflexion (http://anr-reflexion.telecom-paristech.fr/) incluant 4 présentations.
+
+L'inscription est gratuite.
+Pour des raisons de logistique, nous vous demandons de vous inscrire impérativement via le formulaire suivant avant le 1er septembre:  https://goo.gl/TJms04.
+Pour faciliter les échanges entre étudiants, nous fournissons en quantité limité des travel grants pour les étudiants en thèse (jusqu'à 150€). Il faut pour cela envoyer une lettre de motivation par e-mail (avec le responsable de thèse en copie). Si l'étudiant n'est pas déjà orateur, il devra ammener faire un poster décrivant son travail de thèse.
+
+En esperant vous voir nombreux à cette journée.
+
+Fabien Hermenier (fabien.hermenier@unice.fr)
+Damien Saucez (damien.saucez@inria.fr)
+
+Plus d’informations sur :  http://cloud-days16.i3s.unice.fr/
