@@ -144,6 +144,11 @@ li {
     border-bottom: 1px solid #e7e7e7;*/
 }
 
+.content-section-c {
+    padding: 50px 0;
+    background-color: black;
+    color: #eee;
+}
 .section-heading {
     margin-bottom: 30px;
 }
